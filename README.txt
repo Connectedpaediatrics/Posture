@@ -21,3 +21,5 @@ The installed app works offline after the first successful load for manual landm
 For updates replace index.html and increase CACHE_NAME in service-worker.js if needed.
 
 ICON UPDATE: The icons now use the original Cranial Shape Analyser/Plagiocephaly artwork. If your phone keeps an older home-screen icon, remove the old shortcut and Add to Home Screen again after publishing.
+
+Membership button links to https://learn.connectedpaediatrics.com/ and appears below the app controls.
