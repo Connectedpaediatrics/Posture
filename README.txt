@@ -1,25 +1,5 @@
-CONNECTED PAEDIATRICS POSTURE & ALIGNMENT — INSTALLABLE WEB APP
+Connected Paediatrics Posture & Alignment: Membership CTA update
 
-Upload ALL seven files in this folder to the ROOT of your GitHub repository (not the ZIP).
+Upload the seven individual files in this folder to the root of the existing GitHub repository, replacing existing files. Do not upload the ZIP itself. After GitHub Pages updates, reload the page or reopen the installed app to receive the new service worker cache.
 
-index.html
-manifest.webmanifest
-service-worker.js
-icon-192.png
-icon-512.png
-apple-touch-icon.png
-README.txt (optional)
-
-On GitHub: Settings > Pages > Deploy from a branch > main > /(root) > Save.
-Open the GitHub Pages site (not github.com/.../blob/.../index.html).
-
-iPhone/iPad: Safari > Share > Add to Home Screen.
-Android: Chrome > menu > Install app or Add to Home screen.
-
-The installed app works offline after the first successful load for manual landmark placement and reports. Automatic landmark detection loads an external pose detection library and may require internet access. All assessment data is handled locally by the HTML app; no patient database is included.
-
-For updates replace index.html and increase CACHE_NAME in service-worker.js if needed.
-
-ICON UPDATE: The icons now use the original Cranial Shape Analyser/Plagiocephaly artwork. If your phone keeps an older home-screen icon, remove the old shortcut and Add to Home Screen again after publishing.
-
-Membership button links to https://learn.connectedpaediatrics.com/ and appears below the app controls.
+Changes: diagnostic green/yellow banner removed, membership button placed prominently immediately below branded header. Clinical logic and report unchanged.
